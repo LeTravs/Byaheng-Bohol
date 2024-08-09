@@ -1,0 +1,192 @@
+/* Register */
+.register .register-header-img {
+    width: 100%;
+    height: 300px; 
+    object-fit: cover;
+    border-bottom-left-radius: 50px; 
+    border-bottom-right-radius: 50px;
+}
+
+.register h1 {
+    font-size: 70px; /* Font size 70 */
+    margin-bottom: 1rem;
+    text-align: center; /* Center the text */
+    font-weight: 700; /* Make the font bold */
+}
+
+.register h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    color: #555;
+    text-align: center; /* Center the text */
+}
+
+.register h3 {
+    font-size: 2.0rem;
+    margin-bottom: 2rem;
+    color: #000000;
+    text-align: center; /* Center the text */
+}
+
+.register .register-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.register form {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    width: 50%; 
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.register .form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.register .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.register .form-group input,
+.register .form-group select {
+    width: 90%;
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register .form-group input[type="checkbox"] {
+    width: auto;
+    display: inline-block;
+}
+
+.register .form-group.checkbox-group {
+    display: flex;
+    align-items: center;
+}
+
+.register .form-group.checkbox-group label {
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+.register .form-group a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.register .form-group a:hover {
+    text-decoration: underline;
+}
+
+.register button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Full width button */
+    margin-top: 1rem; /* Spacing from the checkbox */
+}
+
+.register button:hover {
+    background-color: #0056b3;
+}
+
+.register .register-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.register-header .register-header-img {
+    width: 100%;
+    height: 100px; 
+    object-fit: cover;
+    border-bottom-left-radius: 50px; 
+    border-bottom-right-radius: 50px;
+}
+
+.register .auth-links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 20px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+.register .auth-links .partner-text {
+    color: black;
+    font-weight: bold;
+}
+
+.register .auth-links .login-button {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.register .auth-links .login-button:hover {
+    background-color: #0056b3;
+}
+
+.auth-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.partner-text {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.login-button {
+    background-color: #ffffff;
+    color: black; /* Change the text color to black */
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #0056b3;
+}
+
+.title-bar .auth-links a:not(:first-child) {
+    color: #000000; /* Text color for non-first-child links */
+    font-weight: bold;
+    padding: 0.5rem;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+}
